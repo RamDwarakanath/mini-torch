@@ -1,12 +1,31 @@
-Mini-torch 🔥
+# **Mini-torch 🔥**  
 
-In this Repository I am trying to build mini-torch which is a Numpy-only implementation of Pytorch.
+**Mini-torch** is a **NumPy-only** reimplementation of PyTorch, built from scratch to understand what happens *under the hood*.  
 
-For now I have started with some of the basic building blocks such as a the Tensor class, MSELoss class and some other Modules. Doing this has helped me understand how these different 
-blocks relate to each other and what really goes on under the hood of Pytorch.
+Currently, it includes some of the fundamental building blocks, such as:  
+- 🧱 **Tensor** class  
+- 📉 **MSELoss** class  
+- ⚙️ Other essential modules  
 
-At the end of the mini-torch code I have created a small Neural Net which trains on a small dataset. I have also included code for the equivalent model and dataset in Pytorch. The results are approximately equivalent which is great to see.
+Building these from scratch has helped me connect the dots between the core components of PyTorch and appreciate how they work together.  
 
-I hope to add other building blocks into mini-torch as I learn how to use them. 
+---
 
-I recommend anyone else learning ML to do this to get a better grasp of Pytorch, it is especially useful for understanding matrices :)
+## **Demo**
+At the end of the `mini-torch` code, you’ll find a **small neural network** that:  
+1. Trains on a small dataset using **Mini-torch**  
+2. Trains on the same dataset using **PyTorch**  
+
+The results are **approximately equivalent**, which is incredibly satisfying to see!  
+
+---
+
+## **Future Plans**
+I plan to continue adding more PyTorch-like building blocks as I learn them.  
+
+---
+
+## **Why I Recommend Doing This**
+If you’re learning machine learning, try building your own *mini-torch*.  
+- It’s a great way to **understand PyTorch internals**  
+- You’ll gain a stronger grasp of **matrix operations** 🧮  
