@@ -9,7 +9,7 @@ Currently, it includes some of the fundamental building blocks, such as:
 
 Building these from scratch has helped me connect the dots between the core components of PyTorch and appreciate how they work together.  
 
-Also, this library is used for my Architectures-from-Scratch Reimplementations https://github.com/RamDwarakanath/Architectures-from-Scratch
+Also, this library is used for my **Architectures-from-Scratch Reimplementations** https://github.com/RamDwarakanath/Architectures-from-Scratch
 
 ---
 
